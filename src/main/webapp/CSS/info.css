@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.user-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.user-sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    position: fixed; /* Keep the sidebar fixed as the user scrolls */
+}
+.user-sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    position: fixed; /* Keep the sidebar fixed as the user scrolls */
+}
+
+.user-link {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.user-link:hover {
+    background-color: #444;
+}
+
+.user-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Styles specific to contactus.jsp, support.jsp, and faq.jsp */
+.contact-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* You can add more styles as needed */

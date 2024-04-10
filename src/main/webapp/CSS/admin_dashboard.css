@@ -1,0 +1,119 @@
+/* CSS for admin_dashboard.jsp */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.admin-header {
+    background-color: #031926;
+    padding: 10px;
+    height:80px;
+    color: white;
+}
+
+.admin-header img{
+    padding: 10px;
+    height:55px;
+    background-color: #031926;
+    color: white;
+}
+
+.admin-header a{
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+.admin-header h1{
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+
+.admin-sidebar {
+    background-color: #002927;
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    width: 200px;
+    position:absolute;
+    top:100px;
+    height: 763px;
+    overflow: auto;
+}
+
+.admin-sidebar a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.admin-sidebar a:hover{
+    text-decoration: underline;
+
+}
+.content {
+    background-color: white;
+    margin-left: 200px;
+    padding: 16px;
+    height: 771px;}
+
+.content p{
+    margin-left: 40px;
+    margin-right: 200px;
+    }
+
+
+
+/* Table Styles */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #f2f2f2;
+}
+
+.footer{
+    padding: 10px;
+    background-color: #031926;
+    color: white;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover{
+    color: #ddd;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.footer li{
+    margin: 0 20px;
+}

@@ -1,0 +1,187 @@
+
+/* CSS for about_us.jsp, user_dashboard.jsp, my_account.jsp, deposit.jsp */
+
+body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+}
+
+
+/* header */
+
+.user-header{
+    padding: 10px;
+    height:80px;
+    background-color: #1F2F47;
+    color: white;
+}
+
+.user-header img{
+    padding: 10px;
+    height:55px;
+    background-color: #1F2F47;
+    color: white;
+}
+
+.user-header a{
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+.user-header h1{
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+/* sidebar */
+
+.user-sidebar{
+    margin: 0;
+    padding: 20px 0;
+    width: 200px;
+    background-color: rgba(40,56,69, 0.9); /* Use rgba for translucent color */
+    position:absolute;
+    top:100px;
+    height: 763px;
+    overflow: auto;
+}
+
+.user-sidebar a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.user-sidebar a:hover{
+    background-color: #444;
+}
+
+
+/* content */
+
+.content{
+    margin-left: 50px;
+    padding: 16px;
+    height: 771px;
+}
+
+.content h1,h2,h3{
+    margin-left: 150px;
+    margin-right: 200px;
+
+}
+.content p{
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+/* transaction */
+.user-content.money-transfer-content {
+    margin-left: 50px;
+    padding: 160px;
+    height: 803px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.money-transfer-content .form-field {
+    margin-bottom: 15px;
+}
+
+.money-transfer-content label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.money-transfer-content input,
+.money-transfer-content select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.money-transfer-content button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+
+.money-transfer-content button:hover {
+    background-color: #0056b3;
+}
+
+/* footer */
+
+.user-footer{
+    padding: 10px;
+    background-color: #1F2F47;
+    color: white;
+    text-align: center;
+}
+.user-footer a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.user-footer a:hover{
+    color: #ddd;
+}
+
+.user-footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.user-footer li{
+    margin: 0 20px;
+}
+
+
+.users-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.users-table th, .users-table td {
+    border: 1px solid #ddd;
+    padding: 6px; /* Adjust padding */
+    text-align: center;
+    font-size: 12px; /* Adjust font size */
+}
+
+.users-table th {
+    background-color: #f2f2f2;
+}
